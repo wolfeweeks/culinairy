@@ -8,14 +8,10 @@ export default {
 		require('path').join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')
 	],
 	theme: {
-		extend: {
-			gradientColorStops: (theme) => ({
-				primary400: '#acc881',
-				secondary500: '#F5A623'
-			})
-		}
+		extend: {}
 	},
 	plugins: [
+		require('@tailwindcss/typography'),
 		require('@tailwindcss/forms'),
 		// 3. Append the Skeleton plugin to the end of this list
 		...require('@skeletonlabs/skeleton/tailwind/skeleton.cjs')()
