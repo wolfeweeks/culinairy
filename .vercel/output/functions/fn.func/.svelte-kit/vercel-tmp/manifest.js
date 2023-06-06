@@ -4,7 +4,7 @@ export const manifest = {
 	assets: new Set(["favicon.png"]),
 	mimeTypes: {".png":"image/png"},
 	_: {
-		client: {"start":"_app/immutable/entry/start.399fa58a.js","app":"_app/immutable/entry/app.81d88cb1.js","imports":["_app/immutable/entry/start.399fa58a.js","_app/immutable/chunks/index.fb0448de.js","_app/immutable/chunks/singletons.52c1d1e3.js","_app/immutable/chunks/index.3dad9bbf.js","_app/immutable/chunks/paths.ac4e78a9.js","_app/immutable/entry/app.81d88cb1.js","_app/immutable/chunks/preload-helper.41c905a7.js","_app/immutable/chunks/index.fb0448de.js"],"stylesheets":[],"fonts":[]},
+		client: {"start":"_app/immutable/entry/start.32127376.js","app":"_app/immutable/entry/app.f311e580.js","imports":["_app/immutable/entry/start.32127376.js","_app/immutable/chunks/index.fb0448de.js","_app/immutable/chunks/singletons.bed2a0a6.js","_app/immutable/chunks/index.3dad9bbf.js","_app/immutable/chunks/paths.898aa642.js","_app/immutable/entry/app.f311e580.js","_app/immutable/chunks/preload-helper.41c905a7.js","_app/immutable/chunks/index.fb0448de.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
 			() => import('../output/server/nodes/0.js'),
 			() => import('../output/server/nodes/1.js'),
