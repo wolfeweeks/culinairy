@@ -31,7 +31,7 @@
 		resLoading = true;
 		recipeSaved = false;
 
-		const res = await fetch('/generate', {
+		const res = await fetch('https://us-central1-maichef-83d7d.cloudfunctions.net/createRecipe', {
 			method: 'POST',
 			body: JSON.stringify({ settings }),
 			headers: {

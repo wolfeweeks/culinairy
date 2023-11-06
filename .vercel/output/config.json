@@ -11,6 +11,30 @@
 			"handle": "filesystem"
 		},
 		{
+			"src": "^/?(?:/__data.json)?$",
+			"dest": "/fn-0"
+		},
+		{
+			"src": "^/generate/?(?:/__data.json)?$",
+			"dest": "/fn-1"
+		},
+		{
+			"src": "^/login/?(?:/__data.json)?$",
+			"dest": "/fn-2"
+		},
+		{
+			"src": "^/try/?(?:/__data.json)?$",
+			"dest": "/fn-3"
+		},
+		{
+			"src": "^/([^/]+?)/?(?:/__data.json)?$",
+			"dest": "/fn-4"
+		},
+		{
+			"src": "^/([^/]+?)/cookbook/?(?:/__data.json)?$",
+			"dest": "/fn-5"
+		},
+		{
 			"src": "/.*",
 			"dest": "/fn"
 		}

@@ -20,7 +20,9 @@ const config = {
 		// 	precompress: false,
 		// 	strict: true
 		// })
-		adapter: adapter({})
+		adapter: adapter({
+			// runtime: 'edge'
+		})
 	}
 };
 
